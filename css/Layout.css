@@ -1,0 +1,153 @@
+table, th, td{
+    border: 1px solid rgb(209, 52, 52);
+    border-collapse: collapse;
+    padding: 5px;
+    width: 3px;
+    
+}
+th, td, tr{
+    background-color: white;
+    color: black;
+    
+}
+.fieldset{
+    background-color: rgb(206, 206, 206);
+    
+}
+
+table{
+    width: 100%;
+    background-color: white;
+}
+td{
+    height: 20%;
+    text-align: center;
+}
+.link{
+    background-color: white;
+    color: red;
+    text-decoration: double;
+}
+.menu{
+    color: white;
+    background-color: rgb(34, 34, 209);
+    padding: 5px;
+    text-decoration: double;
+    border: 1px;
+}
+.menu:hover{
+    color: rgb(255, 255, 0);
+    background-color: red;
+    
+}
+.inftype{
+    color: rgb(15, 45, 212);
+    text-indent: 2px  ;
+}
+
+.caption{
+    border-color: rgb(124, 124, 7);
+    border-style:ridge;
+    background-color: red ;
+    border: 50px;
+    color: yellow;
+}
+.caption1{
+    color: white;
+    background-color: rgb(9, 9, 156);
+}
+/* Layout Page */
+body {
+    background-image: url(../images/MainBackground.jpg);
+    margin: 0px;
+    }
+    #container {
+    width: 1000px;
+    margin: 0px auto;
+    min-height: 600px;
+    background-color: rgb(0, 0, 0);
+    }
+header {
+    background-image: url(../images/Welcome\ to\ my\ Site.png);
+    height: 150px;
+    position: relative;
+}
+nav {
+    height: 60px;
+    background-color: #000;
+    color: #FFF;
+    }
+        ul li {
+        display: inline-block; /*tự trôi*/
+        padding: 5px 10px;
+        }
+        a {
+        text-decoration: none;
+        color: #FFF;
+        }
+        li:hover {
+        text-decoration: underline;
+        background-color: rgb(149, 228, 255);
+        color: #F00;
+        border-radius: 9px;
+        text-decoration: double;
+        }
+        #content {
+        background-color: rgb(255, 0, 0);
+        min-height: 400px;
+        width: 790px;
+        float: left;
+        padding: 5px;
+        }
+        #right {
+        background-image: url(../images/right\ menu.png);
+        min-height: 400px;
+        width: 200px;
+        float: right;
+       }
+       footer {
+       background-color: blue;
+       color: white;
+       height: 30px;
+       text-align: center;
+       clear: both;
+       margin: 5px 0px 0px 0px;
+       padding: 10px 0px 0px 0px;
+       }
+h1{
+    color: #CF3;
+    font-family: Brush Script MT; font-size: 50px; margin: 0%;
+}
+h2{
+    background-color: rgb(9, 9, 156);
+    color: white;
+}
+h3{
+    text-decoration: white;
+    background-color: #01496c;
+    border-radius: 10px;
+    width: 175px;
+    text-align: center;
+}
+.li:hover {
+    text-decoration: underline;
+    background-color: red;
+    color: #F00;
+    border-radius: 9px;
+}
+video{
+    width: 790px;
+
+}
+::-webkit-scrollbar{height:8px;width:8px}
+::-webkit-scrollbar-track{-webkit-box-shadow:inset 0 0 0 #ffffff;background:#fff;border:0 solid #000}
+::-webkit-scrollbar-thumb{-webkit-box-shadow:inset 0 0 0 #ffffff;background:#01496c;border-radius:4px 4px 4px 4px; }
+
+
+
+
+       
+
+        
+
+

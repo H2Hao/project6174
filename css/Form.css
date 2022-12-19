@@ -1,0 +1,73 @@
+form{
+    border: red 10px;
+    background-color: white;
+    display: inline-block;
+    align-items: center;
+}
+form span{
+    text-align:right;
+    display: inline-block;
+    width: 100px;
+    background-color: white;
+    margin: 3px 3px 3px 3px;
+}
+form input, form select{
+    width: 250px;
+    height: 20px;
+    margin: 1px 1px;
+    box-sizing: border-box;
+    border-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+textarea{
+    width: 250px;
+    height: 100px;
+    margin: 1px 1px;
+    box-sizing: border-box;
+    border-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form select{
+    margin: 1px;
+}
+form input[type='submit']{
+    display: block;
+    margin: 10px 0px 12px 98px;
+    width: 80px; height: 30px;
+}
+a{
+    text-decoration: double;
+    color: black;
+}
+
+button{
+    background-color: white;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: red;
+    color: yellow;
+    border-radius: 0px;
+}
+a:hover{
+    color: yellow;
+}
+form input :valid{
+    background-color: green;
+}
+form input :invalid{
+    border: 5px solid red;
+}
+h1{
+    color: darkred
+    
+}
+fieldset{
+    background-image: url(../images/Background.png);
+}
+body{
+    background-image: url(../images/MainBackground.jpg);
+}
+::-webkit-scrollbar{height:8px;width:8px}
+::-webkit-scrollbar-track{-webkit-box-shadow:inset 0 0 0 #ffffff;background:#fff;border:0 solid #000}
+::-webkit-scrollbar-thumb{-webkit-box-shadow:inset 0 0 0 #ffffff;background:#01496c;border-radius:4px 4px 4px 4px; }
